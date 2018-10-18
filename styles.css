@@ -1,0 +1,114 @@
+#title{
+    font-family:'Concert One' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+    background-color: crimson;
+    -webkit-text-fill-color:black;
+    text-align: center;
+    font-family: 'Lora' , Helvetica, sans-serif;
+    min-width: 320px;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  #form-outer{
+      background-color:lightcoral;
+      margin: 0 auto;
+      border-radius: 5px;
+      width: 75%;
+      padding: 10px;
+      padding-top: 10px;
+      max-width: 900px;
+  }
+.labels{
+      display: inline-block;
+      text-align: right;
+      vertical-align: top;
+      width: 40%;
+      padding: 5px;
+      margin-top: 10px;
+  }
+
+  .rightTab{
+      display: inline-block;
+      text-align: left;
+      width: 48%;
+      vertical-align: middle;
+  }
+
+  #submit {
+    background-color: rgb(29, 27, 27);
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+    -webkit-text-fill-color: whitesmoke;
+  }
+
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+
+
+  .radio, .checkbox {
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .input-field {
+    border-radius: 2px;
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+  }
+
+  .userRating,
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width : 833px){
+      .input-field{
+          width: 80%;
+      }
+    select{
+        width: 90%;
+    }
+}
+
+  @media screen and (max-width : 520px){
+    .labels {
+        width: 100%;
+        text-align: left;
+      }
+      .rightTab {
+        width: 80%;
+        float: left;
+      }
+      .input-field {
+        width: 100%;
+      }
+      select {
+        width: 100%;
+      }
+  }
